@@ -92,7 +92,7 @@ resource "aws_security_group" "vpce" {
 
 }
 
-# AWS SSM VPC interface endpoints (ssm, ssmmessages, c2messages)
+# AWS SSM VPC interface endpoints (ssm, ssmmessages, ec2messages)
 resource "aws_vpc_endpoint" "ssm" {
   ip_address_type      = "ipv4"
   private_dns_enabled  = false
